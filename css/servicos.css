@@ -15,38 +15,49 @@ header, footer {
 
 h1 {
   margin: 0;
-  color: #e05d1f;
+  color:  #e05d1f;
 }
 
 a {
   display: inline-block;
-  background-color: #e05d1f;
+  background-color:  #e05d1f;
   color: #ffffff;
   padding: 8px 15px;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
   margin: 5px;
-  vertical-align: middle;
 }
 
 main {
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
 }
 
-img {
-  max-width: 110px;
-  vertical-align: middle;
-  margin: 5px;
+#caixa-texto {
+  width: 100%;
 }
 
-.destaque {
+.servico-card {
   background-color: #ffffff;
   border: 1px solid #cccccc;
-  padding: 20px;
-  max-width: 420px;
-  margin: 20px auto;
+  padding: 15px;
+  width: calc(45% - 20px);
+  box-sizing: border-box;
   border-radius: 8px;
+}
+
+.servico-card img {
+  max-width: 70px;
+  border-radius: 5px;
+}
+
+.preco {
+  color:  #e05d1f;
+  font-weight: bold;
 }
 
 #menu-final a {
