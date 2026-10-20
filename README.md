@@ -4,3 +4,5 @@ O mecânico Osvaldo.
 
 **Qual o objetivo do sistema dele?**\
 Um sistema para controlar carros e seus serviços em uma oficina.
+
+<img src="assets/img/osvaldo.jpg" alt="osvaldo motors DER"  />
